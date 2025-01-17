@@ -30,6 +30,13 @@
 // console.log(word.toLowerCase())
 
 // Veirificar se o texto contém uma palavra específica
-let phrase = 'Eu te amo muito, Mila!'
-console.log(phrase.includes("Mila"))
+// let phrase = 'Eu te amo muito, Mila!'
+// console.log(phrase.includes("Mila"))
+
+// Contar elementos de um array
+console.log([
+    "a",
+    {type: "array"},
+    function(){ return "alo"},
+].length)
 
