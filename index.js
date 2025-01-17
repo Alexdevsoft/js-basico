@@ -12,10 +12,20 @@
  * Transformando string em números e números em String
  */
 
-let string = "234"
-let number = 123;
+// let string = "234"
+// let number = 123;
 
-console.log(Number(string));
-console.log(String(number));
+// console.log(Number(string));
+// console.log(String(number));
 
+// Transformando ponto em vírgula
+// let number = 879.55779;
+// console.log(number.toFixed(2).replace(".",","))
+
+
+// Transformando letras Maiúscula em Minúscula
+let word = "alexsandro junio"
+console.log(word.toUpperCase())
+let = "ALEXSANDRO JUNIO"
+console.log(word.toLowerCase())
 
