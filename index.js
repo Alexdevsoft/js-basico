@@ -5,5 +5,17 @@
 
 */
 
-console.log(Number('4') + 9);
+//console.log(Number('4') + 9);
+
+/**
+ * Manipulando String 
+ * Transformando string em números e números em String
+ */
+
+let string = "234"
+let number = 123;
+
+console.log(Number(string));
+console.log(String(number));
+
 
