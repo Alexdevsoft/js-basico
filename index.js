@@ -24,8 +24,12 @@
 
 
 // Transformando letras Maiúscula em Minúscula
-let word = "alexsandro junio"
-console.log(word.toUpperCase())
-let = "ALEXSANDRO JUNIO"
-console.log(word.toLowerCase())
+// let word = "alexsandro junio"
+// console.log(word.toUpperCase())
+// let = "ALEXSANDRO JUNIO"
+// console.log(word.toLowerCase())
+
+// Veirificar se o texto contém uma palavra específica
+let phrase = 'Eu te amo muito, Mila!'
+console.log(phrase.includes("Mila"))
 
